@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <p>Convertor de Moedas - Gustavo</p>
+    </header>
+    
+    <main>
+
+        <div id="forms">
+            <form id="formEntrada">
+                <p>Escolha a moeda a ser convertida:</p>
+                <label>
+                    <input type="radio" name="moedaEntrada" value="Real"> Real
+                </label>
+
+                <label>
+                    <input type="radio" name="moedaEntrada" value="Dolar"> Dolar
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaEntrada" value="Libra"> Libra
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaEntrada" value="Iene"> Iene
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaEntrada" value="Euro"> Euro
+                </label>
+                
+                <input type="text" name="valor" id="valor" placeholder="Dinheiro">
+                
+            </form>
+
+            <form id="formSaida">
+                <p>Escolha para qual a moeda deve ser convertida:</p>
+                <label>
+                    <input type="radio" name="moedaSaida" value="Real"> Real
+                </label>
+
+                <label>
+                    <input type="radio" name="moedaSaida" value="Dolar"> Dolar
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaSaida" value="Libra"> Libra
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaSaida" value="Iene"> Iene
+                </label>
+
+                <label>
+                    <input type = "radio" name="moedaSaida" value="Euro"> Euro
+                </label>
+                <p id="SAIDA"></p>
+            </form>
+
+            <button id="buttonConfirma">Confirmar</button>
+        </div>
+  
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido por Gustavo Lopes Oliveira para a materia de DIW da PUC-MG</p>
+        <div class="linksFooter">
+            <a href="https://www.linkedin.com/in/gustavo-lopes-164551287/"><img src="img/iconeLinkedin.png" alt="Icone do Linkedin" width="50px"></a>
+            <a href="https://github.com/GustavoLopesOliveira"><img src="img/iconeGitHub.png" alt="Icone do GitHub" width="50px"></a>
+        </div>
+    </footer>
+
+    <script src = "script.js"></script>
+</body>
+</html>
